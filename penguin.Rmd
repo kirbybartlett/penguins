@@ -1,0 +1,33 @@
+---
+title: "penguins_lab6"
+author: "Kirby Bartlett"
+date: "November 6, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+library(car)
+library(onewaytests)
+```
+
+```{r}
+penguins <- read_csv("penguins.csv")
+```
+
+Our questions:
+
+is there a significant difference in mean flipper length for female penguin species (chinstrap, gentoo, adelie)?
+
+2. do some ecploring 
+
+new functions: with + table for easy counting over multiple factos udate species name using case_when 
+
+```{r}
+
+```
+
